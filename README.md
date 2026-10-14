@@ -15,8 +15,8 @@ A comprehensive hands-on repository covering backend engineering fundamentals, H
 | :---: | :--- | :--- | :---: |
 | **71** | [Lab 71: Backend Technology Basics](71-Backend-technology-basics.md) | Client-Server Model, 3-Tier Architecture, URL Anatomy, ASGI vs WSGI | ✅ Completed |
 | **72** | [Lab 72: API HTTP Request & Response](72-API-HTTP-Request-and_Response.md) | In-depth HTTP Request/Response cycle, Headers, Body, and Encoding | ✅ Completed |
-| **73** | `73-API-Request-Methods.md` | REST Verbs: GET, POST, PUT, PATCH, DELETE & Idempotency | ⏳ Next |
-| **74** | `74-HTTP_Status-Codes.md` | Status Categories: 1xx, 2xx, 3xx, 4xx, 5xx & Error Standardization | ⏳ Upcoming |
+| **73** | [Lab 73: API Request Methods](73-API-Request-Methods.md) | REST Verbs: GET, POST, PUT, PATCH, DELETE & Idempotency | ✅ Completed |
+| **74** | `74-HTTP_Status-Codes.md` | Status Categories: 1xx, 2xx, 3xx, 4xx, 5xx & Error Standardization | ⏳ Next |
 | **75** | `75-API-ARchitecture-Types.md` | REST, GraphQL, gRPC, and WebSockets comparison & trade-offs | ⏳ Upcoming |
 | **76** | `76-Fast-API-Intro.md` | FastAPI architecture, Starlette, Pydantic, and automatic Swagger docs | ⏳ Upcoming |
 | **77** | `77-fastapi-hello-world.md` | First FastAPI Microservice, ASGI server run with Uvicorn | ⏳ Upcoming |
