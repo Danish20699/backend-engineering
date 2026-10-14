@@ -104,9 +104,13 @@ class InspectorHandler(BaseHTTPRequestHandler):
         }
         self.wfile.write(json.dumps(response_payload, indent=2).encode("utf-8"))
 
+import sys
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 def main(port=8080):
     server = HTTPServer(("0.0.0.0", port), InspectorHandler)
-    print(f"🚀 Lab 72 Inspector running on http://localhost:{port}")
+    print(f"[INFO] Lab 72 Inspector running on http://localhost:{port}")
     print("Press Ctrl+C to stop the server.")
     try:
         server.serve_forever()
@@ -116,3 +120,4 @@ def main(port=8080):
 
 if __name__ == "__main__":
     main()
+
